@@ -1,0 +1,28 @@
+ *{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Quattrocento Sans', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	color: black;
+}
+.container-header{
+	width: 1920px;
+	margin: 0 auto;
+}
+.container-main{
+	width: 1300px;
+	padding: 0 15px;
+	margin:0 auto;
+}
+
+.clearfix:after{
+	display: table;
+	content: '';
+	clear: both;
+}
+a:hover{
+	color: red;
+}
